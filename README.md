@@ -29,7 +29,7 @@ The HUD updates bright red 'SHIFT' at the optimal shift point, clearly informing
 This is essential in track driving as even milliseconds shaved off with quality shifting can result in seconds better laptimes, which may seem insignificant on paper, but means a lot in racing. 
 
 ### Read More In Our Report
-See [This Section](./Final_Paper_CS_464.pdf).
+See [This Section](./FinalReport.pdf).
 
 ## Prototype Pictures
 ![Alt text](data/Images/20240506_175750(1).jpg?raw=true "Title")
