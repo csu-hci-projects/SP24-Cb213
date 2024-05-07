@@ -75,3 +75,92 @@ Code Explanation Video:
    gstreamer1.0-plugins-{bad,base,good,ugly} \
    gstreamer1.0-{omx,alsa} python3-dev libmtdev-dev \
    xclip xsel libjpeg-dev`
+
+#### Install pip3:
+- `sudo apt install python3-pip`
+
+
+#### Install pip dependencies:
+- `sudo python3 -m pip install --upgrade pip setuptools`
+- `sudo python3 -m pip install --upgrade Cython==0.29.19 pillow`
+
+#### Install Kivy:
+- `sudo python3 -m pip install https://github.com/kivy/kivy/archive/master.zip`
+
+#### Copy code and data folders to /home/pi/DRDS
+- "data" folder
+- "kivymd" folder
+- main.kv
+- main.py
+- savedata.txt
+
+#### Navigate to DRDS directory and run main.py to create the config.ini file
+- `sudo python3 main.py`
+
+#### Configure for use with touch screen:
+
+Edit /.kivy/config.ini by:
+- `sudo su`
+- `cd ..`
+- `cd ..`
+- `cd root`
+- `sudo nano .kivy/config.ini`
+
+Change [input] to:
+````
+mouse = mouse
+mtdev_%(name)s = probesysfs,provider=mtdev
+hid_%(name)s = probesysfs,provider=hidinput
+````
+## Other Misc Setup:
+
+In raspi-config -> Advanced Options -> Memory Split
+- Change value to 512MB
+
+#### Install Python OBD:
+https://python-obd.readthedocs.io/en/latest/#installation
+- `sudo pip3 install obd`
+
+#### Install RPi.GPIO, Lite does not come with it..
+- `sudo apt-get install python3-rpi.gpio`
+
+#### Bluetooth Setup:
+- `sudo bluetoothctl`
+- `agent on`
+- `default-agent`
+- `scan on`
+- `pair xx:xx:xx:xx:xx:xx` <- Your BT OBDII MAC Address
+- `connect xx:xx:xx:xx:xx:xx`
+- `trust xx:xx:xx:xx:xx:xx`
+
+#### Start on Boot:
+- `sudo nano launcher.sh`
+```
+#!/bin/sh
+# launcher.sh
+# navigate to home directory, then to this directory, then execute python script, then back home
+
+cd
+cd /home/pi/DRDS
+sudo python3 main.py
+cd
+```
+Ctrl+x to Save
+
+We need to make the launcher script an executable, which we do with this cmd:
+- `sudo chmod 755 launcher.sh`
+
+Now test it, by typing in:
+- `sh launcher.sh`
+This should run DRDS.
+
+Create a logs directory:
+- `mkdir logs`
+
+Type in:
+- `sudo crontab -e`
+
+Now, enter the line:
+- `@reboot sh /home/pi/launcher.sh >/home/pi/logs/cronlog 2>&1`
+
+Reboot for final test
