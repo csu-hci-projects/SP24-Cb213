@@ -26,6 +26,9 @@ right at the top of the car's powerband which lies at about 5500 rpm in a Mazda 
 The HUD updates bright red 'SHIFT' at the optimal shift point, clearly informing thedriver when to shift as to not hit the redline for too long and possible damage or overheat the engine, and to keep within the optimal powerband for the best overall carried speed. 
 This is essential in track driving as even milliseconds shaved off with quality shifting can result in seconds better laptimes, which may seem insignificant on paper, but means a lot in racing. 
 
+#### Read More In Our Experiment Report
+See [this section](./FinalReport.pdf).
+
 ## Prototype Pictures
 ![Alt text](data/Images/20240506_175750(1).jpg?raw=true "Title")
 ![Alt text](data/Images/20240506_175750.jpg?raw=true "Title")
@@ -34,7 +37,6 @@ https://github.com/csu-hci-projects/SP24-Cb213
 
 ## Video Links from our project:
 #### Demo Video:
-#### Presentation Video:
 #### Code Explanation Video: 
 
 ## Hardware and setup:
