@@ -3,16 +3,16 @@
 ## What We Did
 AboutTheProject.txt
 
-## Prototype Images
+## Prototype
 ![Alt text](data/images/___.jpg?raw=true "Title")
 
 ## Our github repository:
 https://github.com/csu-hci-projects/SP24-Cb213
 
 ## Video Links from our project:
-Demo Video:
-Presentation Video:
-Code Explanation Video: 
+#### Demo Video:
+#### Presentation Video:
+#### Code Explanation Video: 
 
 ## Hardware and setup:
 - Raspberry Pi 4B <u>[here](https://www.amazon.com/Raspberry-Pi-Computer-Suitable-Workstation/dp/B0899VXM8F/ref=sr_1_4?dib=eyJ2IjoiMSJ9.mP4drOfyakW9P2E6ytjWi1Dw0PQxL-Sc1CRzWf-ayOeFXq7dwFWtzoG82WzU25ZkPVlzjV3imXZ2hwHfWyDn9shPao4IqA4gqXBsAYxI52NS0z7AgQioveqIQ1zacFrsFhxBa2aCrA3va0MtR3xgbrNKrCU0m-byPpEbLOCdcZA76Dyj8MAPYNkj9Ba2xUe7_u2oL0GCb-m68LqrDgSg_rrFI2M3-iB8qyHgW9U-Gic.Is6NkNRdQ7_Ij12SCAoDxZYJnEoNy9law47qb4Nj2cA&dib_tag=se&keywords=raspberry+pi+4+model+b&qid=1715048708&sr=8-4)</u>
@@ -79,7 +79,6 @@ Code Explanation Video:
 #### Install pip3:
 - `sudo apt install python3-pip`
 
-
 #### Install pip dependencies:
 - `sudo python3 -m pip install --upgrade pip setuptools`
 - `sudo python3 -m pip install --upgrade Cython==0.29.19 pillow`
@@ -87,42 +86,18 @@ Code Explanation Video:
 #### Install Kivy:
 - `sudo python3 -m pip install https://github.com/kivy/kivy/archive/master.zip`
 
-#### Copy code and data folders to /home/pi/DRDS
+#### Copy code and data folders to home/usr/
 - "data" folder
 - "kivymd" folder
 - main.kv
 - main.py
-- savedata.txt
 
-#### Navigate to DRDS directory and run main.py to create the config.ini file
+#### Navigate to directory and run main.py 
 - `sudo python3 main.py`
 
-#### Configure for use with touch screen:
-
-Edit /.kivy/config.ini by:
-- `sudo su`
-- `cd ..`
-- `cd ..`
-- `cd root`
-- `sudo nano .kivy/config.ini`
-
-Change [input] to:
-````
-mouse = mouse
-mtdev_%(name)s = probesysfs,provider=mtdev
-hid_%(name)s = probesysfs,provider=hidinput
-````
-## Other Misc Setup:
-
-In raspi-config -> Advanced Options -> Memory Split
-- Change value to 512MB
-
 #### Install Python OBD:
-https://python-obd.readthedocs.io/en/latest/#installation
+<u>[here](https://python-obd.readthedocs.io/en/latest/#installation)</u>
 - `sudo pip3 install obd`
-
-#### Install RPi.GPIO, Lite does not come with it..
-- `sudo apt-get install python3-rpi.gpio`
 
 #### Bluetooth Setup:
 - `sudo bluetoothctl`
@@ -133,7 +108,7 @@ https://python-obd.readthedocs.io/en/latest/#installation
 - `connect xx:xx:xx:xx:xx:xx`
 - `trust xx:xx:xx:xx:xx:xx`
 
-#### Start on Boot:
+#### To Start on pi Boot:
 - `sudo nano launcher.sh`
 ```
 #!/bin/sh
@@ -145,22 +120,4 @@ cd /home/pi/DRDS
 sudo python3 main.py
 cd
 ```
-Ctrl+x to Save
 
-We need to make the launcher script an executable, which we do with this cmd:
-- `sudo chmod 755 launcher.sh`
-
-Now test it, by typing in:
-- `sh launcher.sh`
-This should run DRDS.
-
-Create a logs directory:
-- `mkdir logs`
-
-Type in:
-- `sudo crontab -e`
-
-Now, enter the line:
-- `@reboot sh /home/pi/launcher.sh >/home/pi/logs/cronlog 2>&1`
-
-Reboot for final test
