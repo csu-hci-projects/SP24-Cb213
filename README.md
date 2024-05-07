@@ -40,13 +40,13 @@ See [This Section](./FinalReport.pdf).
 #### Code Explanation Video: 
 
 ## Participants in our study
-  #### Novice Group:
+#### Novice Group:
 - Josh Gustafson
 - Lohit Talachutla
 - Tim Yoon
 - Justin Ginter
-- Jesse Shirgill 
-  #### Experienced Group:
+- Jesse Shirgill
+#### Experienced Group:
 - Sidney Ollis
 - Driggs Eckburg
 - Matthew Schnieder
