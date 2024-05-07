@@ -15,8 +15,10 @@ In the end we finally got it all to work and made a GUI that parsed the rpm read
 The latency was suprisingly fast and the HUD kept updated with real time RPM to the thousandth. 
 We jumped around with having different designs for the HUD many times, initially wanting to replicate a similar design to the one pictured below with red, yellow, and green lights indicating shift points and dynamically updating light/dark images to show progress through the RPM range,
 but for the sake of visibility and experimentation, we decided that just using simple to understand dynamically updating text was more beneficial. 
+---
 ![Alt text](data/Images/ExampleRPM.jpg?raw=true "Title")
 ![Alt text](data/Images/RectangleVersion.png?raw=true "Title")
+---
 The Prototype HUD below displays a constantly updating numeric RPM count and the cars speed in MPH, it also displays text that changes from a green 'OK' to a yellow 'READY' 500 RPM before the optimal shift point, the optimal shift point is 
 right at the top of the car's powerband which lies at about 5500 rpm in a Mazda CX-9. Which is the car we used for testing and trials as our more track spec car does not have the necessary registration to be driven on the public roads. 
 The HUD updates bright red 'SHIFT' at the optimal shift point, clearly informing thedriver when to shift as to not hit the redline for too long and possible damage or overheat the engine, and to keep within the optimal powerband for the best overall carried speed. 
