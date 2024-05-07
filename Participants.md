@@ -1,11 +1,14 @@
-### Participants in our study
-- Liam Hartman - In 464
-- Mason Stencel - In 464
+## Participants in our study
+#### Novice Group:
+- Josh Gustafson
+- Lohit Talachutla
+- Tim Yoon
+- Justin Ginter
+- Jesse Shirgill
+#### Experienced Group:
 - Sidney Ollis
 - Driggs Eckburg
 - Matthew Schnieder
 - Justin Chester
 - Andy Nguyen
-- Josh Gustafson
-- Lohit Talachutla
-- Tim Yoon
+  
