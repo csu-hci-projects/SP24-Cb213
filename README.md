@@ -96,7 +96,7 @@ https://github.com/csu-hci-projects/SP24-Cb213
 - `sudo python3 main.py`
 
 #### Install Python OBD:
-<u>[here](https://python-obd.readthedocs.io/en/latest/#installation)</u>
+- <u>[here](https://python-obd.readthedocs.io/en/latest/#installation)</u>
 - `sudo pip3 install obd`
 
 #### Bluetooth Setup:
