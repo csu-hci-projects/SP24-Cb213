@@ -1,3 +1,4 @@
+### Participants in our study
 - Liam Hartman - In 464
 - Mason Stencel - In 464
 - Sidney Ollis
