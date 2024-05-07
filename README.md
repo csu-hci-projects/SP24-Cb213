@@ -36,8 +36,8 @@ See [This Section](./FinalReport.pdf).
 ![Alt text](data/Images/20240506_175750.jpg?raw=true "Title")
 
 ## Video Links from our project:
-#### Demo Video:
-#### Code Explanation Video: 
+#### Intro Video: <u>[here](https://youtu.be/b7KwzcnNyAE)</u>
+#### Code Explanation/Demo Video: <u>[here](https://youtu.be/ZdiDa9XPL7A)</u>
 
 ## Participants in our study
 #### Novice Group:
