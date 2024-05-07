@@ -1,5 +1,7 @@
 # SP24-Improving race shifting with a Raspberry Pi powered heads up display
 
+https://github.com/csu-hci-projects/SP24-Cb213
+
 ![Alt text](data/Images/20240506_175740.jpg?raw=true "Title")
 
 ## What We Did
@@ -26,18 +28,25 @@ right at the top of the car's powerband which lies at about 5500 rpm in a Mazda 
 The HUD updates bright red 'SHIFT' at the optimal shift point, clearly informing thedriver when to shift as to not hit the redline for too long and possible damage or overheat the engine, and to keep within the optimal powerband for the best overall carried speed. 
 This is essential in track driving as even milliseconds shaved off with quality shifting can result in seconds better laptimes, which may seem insignificant on paper, but means a lot in racing. 
 
-### Read More In Our Experiment Report
-See [this section](./FinalReport.pdf).
+### Read More In Our Report
+See [This Section](./FinalReport.pdf).
 
 ## Prototype Pictures
 ![Alt text](data/Images/20240506_175750(1).jpg?raw=true "Title")
 ![Alt text](data/Images/20240506_175750.jpg?raw=true "Title")
-## Our github repository:
-https://github.com/csu-hci-projects/SP24-Cb213
 
 ## Video Links from our project:
 #### Demo Video:
 #### Code Explanation Video: 
+
+## Our Experiment Participants 
+See [This Section](./participants.txt).
+
+## Our LaTeX Source Code
+See [This Section](./participants.txt).
+
+## Our Literature Survey
+See [This Section](./participants.txt).
 
 ## Hardware and setup:
 - Raspberry Pi 4B <u>[here](https://www.amazon.com/Raspberry-Pi-Computer-Suitable-Workstation/dp/B0899VXM8F/ref=sr_1_4?dib=eyJ2IjoiMSJ9.mP4drOfyakW9P2E6ytjWi1Dw0PQxL-Sc1CRzWf-ayOeFXq7dwFWtzoG82WzU25ZkPVlzjV3imXZ2hwHfWyDn9shPao4IqA4gqXBsAYxI52NS0z7AgQioveqIQ1zacFrsFhxBa2aCrA3va0MtR3xgbrNKrCU0m-byPpEbLOCdcZA76Dyj8MAPYNkj9Ba2xUe7_u2oL0GCb-m68LqrDgSg_rrFI2M3-iB8qyHgW9U-Gic.Is6NkNRdQ7_Ij12SCAoDxZYJnEoNy9law47qb4Nj2cA&dib_tag=se&keywords=raspberry+pi+4+model+b&qid=1715048708&sr=8-4)</u>
