@@ -1,0 +1,57 @@
+**NOTE** We received information about the participants driving skills prior to the experiment. This questionare was merely to organize and collect qualitative response data
+from the participants. 
+
+HUD Technology Feedback Questionnaire
+Demographic Information:
+
+Age:
+Gender:
+Driving Experience (Years):
+Frequency of Driving (e.g., daily, weekly):
+Familiarity with Technology (scale 1-5, 1 being not familiar, 5 being very familiar):
+General Experience with HUD:
+6. Prior to this experiment, had you ever used a HUD in a vehicle?
+
+Yes
+No
+Experience with HUD in This Experiment:
+7. How intuitive did you find the HUD interface? (scale 1-5, 1 being not intuitive, 5 being very intuitive)
+
+How helpful was the HUD in improving your shifting timing during acceleration? (scale 1-5, 1 being not helpful, 5 being very helpful)
+Did you feel that the HUD reduced your cognitive load while driving?
+Yes
+No
+Not Sure
+How comfortable were you with the visibility and readability of the information presented by the HUD?
+Very Uncomfortable
+Uncomfortable
+Neutral
+Comfortable
+Very Comfortable
+Comparative Assessment:
+11. Compared to standard driving (without HUD), how would you rate your driving performance with the HUD? (scale 1-5, 1 being much worse, 5 being much better)
+
+Did you feel safer using the HUD compared to traditional driving methods?
+Yes
+No
+Not Sure
+Subjective Experience:
+13. What did you like most about the HUD technology used in the experiment?
+
+What did you dislike about the HUD technology used in the experiment?
+Were there any features or information you felt were missing from the HUD? If yes, please specify.
+Future Suggestions:
+16. Would you prefer a customizable HUD interface that allows you to choose what information to display?
+- Yes
+- No
+- Not Sure
+17. What additional features or information would you like to see integrated into the HUD system?
+
+Final Thoughts:
+18. How likely are you to use a vehicle with HUD technology in the future?
+- Very Unlikely
+- Unlikely
+- Neutral
+- Likely
+- Very Likely
+19. Any other comments or suggestions to improve the HUD technology?
