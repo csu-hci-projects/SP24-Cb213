@@ -4,8 +4,9 @@
 AboutTheProject.txt
 
 ## Prototype
-![Alt text](data/images/___.jpg?raw=true "Title")
-
+![Alt text](data/images/20240506_175740.jpg?raw=true "Title")
+![Alt text](data/images/20240506_175750(1).jpg?raw=true "Title")
+![Alt text](data/images/20240506_175750.jpg?raw=true "Title")
 ## Our github repository:
 https://github.com/csu-hci-projects/SP24-Cb213
 
