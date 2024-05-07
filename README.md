@@ -116,7 +116,7 @@ https://github.com/csu-hci-projects/SP24-Cb213
 # navigate to home directory, then to this directory, then execute python script, then back home
 
 cd
-cd /home/pi/DRDS
+cd /home/usr/
 sudo python3 main.py
 cd
 ```
