@@ -40,16 +40,18 @@ See [This Section](./FinalReport.pdf).
 #### Code Explanation Video: 
 
 ## Participants in our study
-- Liam Hartman - In 464
-- Mason Stencel - In 464
+  #### Novice Group:
+- Josh Gustafson
+- Lohit Talachutla
+- Tim Yoon
+- Justin Ginter
+- Jesse Shirgill 
+  #### Experienced Group:
 - Sidney Ollis
 - Driggs Eckburg
 - Matthew Schnieder
 - Justin Chester
 - Andy Nguyen
-- Josh Gustafson
-- Lohit Talachutla
-- Tim Yoon
   
 ## Hardware and setup:
 - Raspberry Pi 4B <u>[here](https://www.amazon.com/Raspberry-Pi-Computer-Suitable-Workstation/dp/B0899VXM8F/ref=sr_1_4?dib=eyJ2IjoiMSJ9.mP4drOfyakW9P2E6ytjWi1Dw0PQxL-Sc1CRzWf-ayOeFXq7dwFWtzoG82WzU25ZkPVlzjV3imXZ2hwHfWyDn9shPao4IqA4gqXBsAYxI52NS0z7AgQioveqIQ1zacFrsFhxBa2aCrA3va0MtR3xgbrNKrCU0m-byPpEbLOCdcZA76Dyj8MAPYNkj9Ba2xUe7_u2oL0GCb-m68LqrDgSg_rrFI2M3-iB8qyHgW9U-Gic.Is6NkNRdQ7_Ij12SCAoDxZYJnEoNy9law47qb4Nj2cA&dib_tag=se&keywords=raspberry+pi+4+model+b&qid=1715048708&sr=8-4)</u>
