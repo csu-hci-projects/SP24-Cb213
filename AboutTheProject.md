@@ -8,3 +8,12 @@ Not to mention fine tuning the GUI and getting it to actually parse in values re
 Even though we used an existing plugin for the OBDII connection, it was still extremely difficult to setup and instantize. 
 In the end we finally got it all to work and made a GUI that parsed the rpm reading from the OBDII reader as a String and utilized substrings to alter when and how text appeared warning you to shift.
 The latency was suprisingly fast and the HUD kept updated with real time RPM to the thousandth. 
+We jumped around with having different designs for the HUD many times, initially wanting to replicate a similar design of red yellow and green lights indicating shift points, but for the sake
+of visibility and experimentation, we decided that just using easy to follow colored text was more beneficial. 
+![Alt text](data/Images/ExampleRPM.jpg?raw=true "Title")
+![Alt text](data/Images/RectangleVersion.jpg?raw=true "Title")
+The HUD displays a constantly updating numeric RPM count and the cars speed in MPH, it also displays text that changes from a green 'OK' to a yellow 'READY' 500 RPM before the optimal shift point, the optimal shift point is 
+right at the top of the car's powerband which lies at about 5500 rpm in a Mazda CX-9. Which is the car we used for testing and trials as our more track spec car does not have the necessary registration to be driven on the public roads. 
+The HUD updates bright red 'SHIFT' at the optimal shift point, clearly informing thedriver when to shift as to not hit the redline for too long and possible damage or overheat the engine, and to keep within the optimal powerband for the best overall carried speed. 
+This is essential in track driving as even milliseconds shaved off with quality shifting can result in seconds better laptimes, which may seem insignificant on paper, but means a lot in racing. 
+
