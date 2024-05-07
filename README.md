@@ -1,4 +1,4 @@
-# SP24-Improving race shifting with a Raspberry Pi powered heads up display
+# SP24-Improving Shifting With a Raspberry Pi Powered Heads Up Display
 
 https://github.com/csu-hci-projects/SP24-Cb213
 
