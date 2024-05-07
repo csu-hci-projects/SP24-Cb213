@@ -1,7 +1,8 @@
 # SP24-Improving race shifting with a Raspberry Pi powered heads up display
 
 ## What We Did
-[Alt text](AboutTheProject.txt?raw=true "Title")
+See [this section](./AboutTheProject.md).
+
 
 ## Prototype
 ![Alt text](data/Images/20240506_175740.jpg?raw=true "Title")
