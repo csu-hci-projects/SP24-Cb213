@@ -17,7 +17,7 @@ We jumped around with having different designs for the HUD many times, initially
 but for the sake of visibility and experimentation, we decided that just using simple to understand dynamically updating text was more beneficial. 
 ![Alt text](data/Images/ExampleRPM.jpg?raw=true "Title")
 ![Alt text](data/Images/RectangleVersion.png?raw=true "Title")
-The HUD displays a constantly updating numeric RPM count and the cars speed in MPH, it also displays text that changes from a green 'OK' to a yellow 'READY' 500 RPM before the optimal shift point, the optimal shift point is 
+The Prototype HUD below displays a constantly updating numeric RPM count and the cars speed in MPH, it also displays text that changes from a green 'OK' to a yellow 'READY' 500 RPM before the optimal shift point, the optimal shift point is 
 right at the top of the car's powerband which lies at about 5500 rpm in a Mazda CX-9. Which is the car we used for testing and trials as our more track spec car does not have the necessary registration to be driven on the public roads. 
 The HUD updates bright red 'SHIFT' at the optimal shift point, clearly informing thedriver when to shift as to not hit the redline for too long and possible damage or overheat the engine, and to keep within the optimal powerband for the best overall carried speed. 
 This is essential in track driving as even milliseconds shaved off with quality shifting can result in seconds better laptimes, which may seem insignificant on paper, but means a lot in racing. 
